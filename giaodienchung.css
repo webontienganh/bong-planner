@@ -1,0 +1,8 @@
+/* Custom Scrollbar & Transitions */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(150, 150, 150, 0.2); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(150, 150, 150, 0.4); }
+* { transition-property: background-color, border-color, color, fill, stroke, opacity, transform, box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 200ms; }
+.glass-card { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px); }
+.dark .glass-card { background: rgba(30, 30, 36, 0.85); }
